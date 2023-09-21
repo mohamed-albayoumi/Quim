@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Quim</string>
+    <string name="new_company">انشاء حساب شركه جديد</string>
+    <string name="company_name">اسم الشركه</string>
+    <string name="company_name_or_custmer">اسم المستخدم أو الشركة</string>
+    <string name="name">الاسم</string>
+    <string name="email">البريد الاليكتروني</string>
+    <string name="number">رقم الشركه</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="number_of_phone">رقم الهاتف</string>
+    <string name="city">اختر المدينه</string>
+    <string name="add">اضف السجل التجاري الضريبي</string>
+    <string name="tax_card">البطاقةالضريبيه</string>
+    <string name="sign">تسجيل</string>
+    <string name="amendment">تعديل</string>
+    <string name="to_be_sure">تأكيد</string>
+    <string name="add_data">إضافه بيانات المفوض</string>
+    <string name="add_authorized">إضافه مفوض</string>
+    <string name="personal_file">الملف الشخصي</string>
+    <string name="list_of_estate">قائمة العقارات</string>
+    <string name="elahmadia">شركه الأحمديه</string>
+    <string name="personal_name">أحمدكمال</string>
+    <string name="add_info">أضف معلومات تعريفيه</string>
+    <string name="password">كلمة المرور</string>
+    <string name="Loign_In">تسجيل الدخول</string>
+    <string name="Customer_Loign_In">تسجيل الدخول العميل</string>
+    <string name="Client">عميل</string>
+    <string name="Company">شركه</string>
+    <string name="Previewer">معاين</string>
+    <string name="Member">فرد</string>
+
+
+</resources>

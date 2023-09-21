@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+            android:layout_marginTop="-280dp"
+        />
+        <ImageView
+            android:id="@+id/text_scroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/text_scroll"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:layout_marginBottom="16dp"
+            />
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_below="@+id/text_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape1"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/new_company"
+                android:layout_below="@+id/text_scroll">
+
+                <TextView
+                    android:id="@+id/make_new_company"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_company"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginRight="16dp"
+                    android:fontFamily="@font/elmessirimedium"
+                    android:textSize="24dp"
+                    />
+                <RelativeLayout
+                    android:id="@+id/company_Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/make_new_company"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="12dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/companyname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/company_name"
+                        android:textColor="@color/black"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginRight="16dp"
+                        android:fontFamily="@font/elmessirisemibold"
+                        android:textSize="12dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/shape2"
+                        android:layout_below="@+id/companyname"
+                        android:orientation="horizontal"
+                        android:layoutDirection="rtl">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon1"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="12dp"
+                            android:paddingLeft="18dp"/>
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="40dp"
+                            android:background="@color/white">
+                        </LinearLayout>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Company_Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/company_Name"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="12dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/company_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email"
+                        android:textColor="@color/black"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginRight="16dp"
+                        android:fontFamily="@font/elmessirisemibold"
+                        android:textSize="12dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/shape2"
+                        android:layout_below="@+id/company_name"
+                        android:orientation="horizontal"
+                        android:layoutDirection="rtl">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon2"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="12dp"
+                            android:paddingLeft="18dp"/>
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="40dp"
+                            android:background="@color/white">
+                        </LinearLayout>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/company_Na"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Company_Name"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="12dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/company_namee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/number"
+                        android:textColor="@color/black"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginRight="16dp"
+                        android:fontFamily="@font/elmessirisemibold"
+                        android:textSize="12dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/shape2"
+                        android:layout_below="@+id/company_namee"
+                        android:orientation="horizontal"
+                        android:layoutDirection="rtl">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon3"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="12dp"
+                            android:paddingLeft="18dp"/>
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="40dp"
+                            android:background="@color/white">
+                        </LinearLayout>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/cOMpany_Nam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/company_Na"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="12dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/company_namme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/city"
+                        android:textColor="@color/black"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginRight="16dp"
+                        android:fontFamily="@font/elmessirisemibold"
+                        android:textSize="12dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/shape2"
+                        android:layout_below="@+id/company_namme"
+                        android:orientation="horizontal"
+                        android:layoutDirection="rtl">
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="40dp"
+                            android:background="@color/white">
+                        </LinearLayout>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/cOMPany_Nam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cOMpany_Nam"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="12dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/company_naame"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add"
+                        android:textColor="@color/black"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginRight="16dp"
+                        android:fontFamily="@font/elmessirisemibold"
+                        android:textSize="12dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/shape2"
+                        android:layout_below="@+id/company_naame"
+                        android:orientation="horizontal"
+                        android:layoutDirection="ltr">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon4"
+                            android:layout_marginTop="14dp"
+                            android:layout_marginRight="12dp"
+                            android:paddingLeft="18dp"/>
+
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/comapanynam"
+                    android:layout_width="match_parent"
+                    android:clickable="true"
+                    android:layout_height="68dp"
+                    android:layout_below="@+id/cOMPany_Nam"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/shape3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/elmessirisemibold"
+                        android:text="@string/sign"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/comap_anynam"
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:layout_below="@+id/comapanynam"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/shape4">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layoutDirection="rtl"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/add_data" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="6dp"
+                            android:src="@drawable/icon5"
+                            android:text="@string/add_data" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/space"
+                    android:layout_centerInParent="true"
+                    android:layout_below="@+id/comap_anynam"
+                    android:layout_width="140dp"
+                    android:layout_height="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/shape5"
+                    android:orientation="horizontal">
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+
+</RelativeLayout>
+
+
